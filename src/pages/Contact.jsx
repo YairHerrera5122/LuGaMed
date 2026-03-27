@@ -38,7 +38,7 @@ const Contact = () => {
           <div>
             <h2 className="mb-6" style={{ fontSize: '1.75rem' }}>Información</h2>
             <div className="flex flex-col gap-4">
-              <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 p-4 card hover:border-primary transition" style={{ boxShadow: 'none', border: '1px solid var(--border)' }}>
+              <a href="https://wa.me/5492975440834" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 p-4 card hover:border-primary transition" style={{ boxShadow: 'none', border: '1px solid var(--border)' }}>
                 <Phone size={24} color="var(--primary)" style={{ marginTop: '4px' }} />
                 <div>
                   <h4 className="mb-1">Teléfono / WhatsApp</h4>

@@ -1,5 +1,5 @@
 export const generateWhatsAppLink = (cartItems, total) => {
-  const phoneNumber = "5491112345678"; // Replace with actual LuGaMed WhatsApp number
+  const phoneNumber = "5492975440834"; // Replace with actual LuGaMed WhatsApp number
   let message = "¡Hola LuGaMed! Me gustaría realizar el siguiente pedido:%0A%0A";
   
   cartItems.forEach(item => {
@@ -13,7 +13,7 @@ export const generateWhatsAppLink = (cartItems, total) => {
 };
 
 export const generateProductWhatsAppLink = (product) => {
-  const phoneNumber = "5491112345678"; // Replace with actual
+  const phoneNumber = "5492975440834"; // Replace with actual
   const message = `¡Hola LuGaMed! Estoy interesado/a en comprar el producto: *${product.name}* ($${product.price}). ¿Tienen stock disponible?`;
   return `https://wa.me/${phoneNumber}?text=${message}`;
 };
