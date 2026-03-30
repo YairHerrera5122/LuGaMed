@@ -3,7 +3,7 @@ import { Camera, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: 'var(--primary)', color: 'var(--white)', paddingTop: '3rem', paddingBottom: '1.5rem' }}>
+    <footer style={{ backgroundColor: 'var(--primary)', color: '#000000', paddingTop: '3rem', paddingBottom: '1.5rem' }}>
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         <div>
           <Link to="/" className="flex items-center mb-4" style={{ textDecoration: 'none' }}>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container" style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem', textAlign: 'center', opacity: 0.8, fontSize: '0.875rem' }}>
+      <div className="container" style={{ borderTop: '1px solid rgba(0,0,0,0.1)', paddingTop: '1.5rem', textAlign: 'center', opacity: 0.8, fontSize: '0.875rem' }}>
         &copy; {new Date().getFullYear()} LuGaMed - Insumos Médicos y Tecnología. Todos los derechos reservados.
       </div>
     </footer>
