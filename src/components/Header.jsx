@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container flex justify-between items-center py-4">
         {/* Logo */}
         <Link to="/" className="flex items-center" style={{ textDecoration: 'none' }}>
-          <img src="/logo.png" alt="LuGaMed Logo" style={{ height: '50px', objectFit: 'contain' }} />
+          <img src="/logo.png" alt="LuGaMed Logo" style={{ height: '80px', objectFit: 'contain' }} />
         </Link>
 
         {/* Desktop Navigation */}

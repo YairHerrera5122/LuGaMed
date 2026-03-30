@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         <div>
           <Link to="/" className="flex items-center mb-4" style={{ textDecoration: 'none' }}>
-            <img src="/logo.png" alt="LuGaMed Logo" style={{ height: '60px', objectFit: 'contain', borderRadius: 'var(--radius-sm)' }} />
+            <img src="/logo.png" alt="LuGaMed Logo" style={{ height: '95px', objectFit: 'contain', borderRadius: 'var(--radius-sm)' }} />
           </Link>
           <p style={{ opacity: 0.8 }}>Tu tienda de confianza en insumos médicos, enfermería y tecnología. Calidad y servicio para profesionales de la salud.</p>
         </div>
