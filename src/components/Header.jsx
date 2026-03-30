@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ShoppingCart, Menu, X, Activity } from 'lucide-react';
+import { ShoppingCart, Menu, X } from 'lucide-react';
 import { useContext, useState } from 'react';
 import { CartContext } from '../context/CartContext';
 
@@ -11,9 +11,8 @@ const Header = () => {
     <header style={{ backgroundColor: 'var(--white)', boxShadow: 'var(--shadow-sm)', position: 'sticky', top: 0, zIndex: 10 }}>
       <div className="container flex justify-between items-center py-4">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2" style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '1.5rem' }}>
-          <Activity size={32} />
-          <span>LuGaMed</span>
+        <Link to="/" className="flex items-center" style={{ textDecoration: 'none' }}>
+          <img src="/logo.png" alt="LuGaMed Logo" style={{ height: '50px', objectFit: 'contain' }} />
         </Link>
 
         {/* Desktop Navigation */}

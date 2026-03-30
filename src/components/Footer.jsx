@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom';
-import { Activity, Camera, Mail, MapPin, Phone } from 'lucide-react';
+import { Camera, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer style={{ backgroundColor: 'var(--primary)', color: 'var(--white)', paddingTop: '3rem', paddingBottom: '1.5rem' }}>
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         <div>
-          <Link to="/" className="flex items-center gap-2 mb-4" style={{ color: 'var(--white)', fontWeight: 'bold', fontSize: '1.5rem' }}>
-            <Activity size={32} />
-            <span>LuGaMed</span>
+          <Link to="/" className="flex items-center mb-4" style={{ textDecoration: 'none' }}>
+            <img src="/logo.png" alt="LuGaMed Logo" style={{ height: '60px', objectFit: 'contain', borderRadius: 'var(--radius-sm)' }} />
           </Link>
           <p style={{ opacity: 0.8 }}>Tu tienda de confianza en insumos médicos, enfermería y tecnología. Calidad y servicio para profesionales de la salud.</p>
         </div>
