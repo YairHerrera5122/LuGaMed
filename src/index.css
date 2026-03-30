@@ -1,14 +1,14 @@
 :root {
-  /* Medical Palette */
-  --primary: #007bff; /* Medical Blue */
-  --primary-hover: #0056b3;
+  /* Medical Palette - Dark Theme */
+  --primary: #bdaeff; /* Pastel Lilac */
+  --primary-hover: #a18fff;
   --secondary: #eaddff; /* Soft Lilac */
   --secondary-hover: #d1b8f5;
-  --black: #212529;
-  --dark-gray: #495057;
-  --light-gray: #f8f9fa;
-  --white: #ffffff;
-  --border: #e9ecef;
+  --black: #f8f9fa; /* Light text for dark mode */
+  --dark-gray: #adb5bd; /* Muted text for dark mode */
+  --light-gray: #1a1a24; /* Dark Gray main background */
+  --white: #252530; /* Negro Gris for cards */
+  --border: #38384d; /* Dark borders */
   
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
   --radius-sm: 4px;

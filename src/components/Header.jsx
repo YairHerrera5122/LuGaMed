@@ -30,7 +30,7 @@ const Header = () => {
             {cartCount > 0 && (
               <span style={{
                 position: 'absolute', top: 0, right: 0, 
-                backgroundColor: 'var(--secondary)', color: 'var(--primary)',
+                backgroundColor: 'var(--primary)', color: 'var(--white)',
                 borderRadius: '50%', width: '20px', height: '20px',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontSize: '0.75rem', fontWeight: 'bold'

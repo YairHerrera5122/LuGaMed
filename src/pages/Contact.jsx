@@ -42,18 +42,18 @@ const Contact = () => {
                 <Phone size={24} color="var(--primary)" style={{ marginTop: '4px' }} />
                 <div>
                   <h4 className="mb-1">Teléfono / WhatsApp</h4>
-                  <p className="text-muted">+54 9 11 1234-5678</p>
+                  <p className="text-muted">+54 9 297 544-0834</p>
                 </div>
               </a>
-              
-              <a href="mailto:hola@lugamed.com" className="flex items-start gap-4 p-4 card hover:border-primary transition" style={{ boxShadow: 'none', border: '1px solid var(--border)' }}>
+
+              <a href="mailto:luga.medstore@gmail.com" className="flex items-start gap-4 p-4 card hover:border-primary transition" style={{ boxShadow: 'none', border: '1px solid var(--border)' }}>
                 <Mail size={24} color="var(--primary)" style={{ marginTop: '4px' }} />
                 <div>
                   <h4 className="mb-1">Correo Electrónico</h4>
-                  <p className="text-muted">hola@lugamed.com</p>
+                  <p className="text-muted">luga.medstore@gmail.com</p>
                 </div>
               </a>
-              
+
               <a href="https://instagram.com/lugamed.ok" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 p-4 card hover:border-primary transition" style={{ boxShadow: 'none', border: '1px solid var(--border)' }}>
                 <Camera size={24} color="var(--primary)" style={{ marginTop: '4px' }} />
                 <div>
@@ -61,7 +61,7 @@ const Contact = () => {
                   <p className="text-muted">@lugamed.ok</p>
                 </div>
               </a>
-              
+
               <div className="flex items-start gap-4 p-4 card" style={{ boxShadow: 'none', border: '1px solid var(--border)' }}>
                 <MapPin size={24} color="var(--primary)" style={{ marginTop: '4px' }} />
                 <div>
@@ -71,7 +71,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="card overflow-hidden" style={{ height: '250px', border: '1px solid var(--border)', boxShadow: 'none' }}>
             {/* Simulating a map */}
             <div style={{ width: '100%', height: '100%', backgroundColor: '#e5e3df', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>

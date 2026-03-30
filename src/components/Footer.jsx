@@ -12,9 +12,9 @@ const Footer = () => {
           </Link>
           <p style={{ opacity: 0.8 }}>Tu tienda de confianza en insumos médicos, enfermería y tecnología. Calidad y servicio para profesionales de la salud.</p>
         </div>
-        
+
         <div>
-          <h3 style={{ color: 'var(--secondary)' }}>Enlaces Rápidos</h3>
+          <h3>Enlaces Rápidos</h3>
           <div className="flex flex-col gap-2 mt-4">
             <Link to="/nosotros" style={{ opacity: 0.8 }}>Nosotros</Link>
             <Link to="/catalogo" style={{ opacity: 0.8 }}>Catálogo de Productos</Link>
@@ -24,16 +24,16 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 style={{ color: 'var(--secondary)' }}>Contacto</h3>
+          <h3>Contacto</h3>
           <div className="flex flex-col gap-2 mt-4">
-            <div className="flex items-center gap-2" style={{ opacity: 0.8 }}><Phone size={16} /> +54 9 11 1234-5678</div>
-            <div className="flex items-center gap-2" style={{ opacity: 0.8 }}><Mail size={16} /> hola@lugamed.com</div>
+            <div className="flex items-center gap-2" style={{ opacity: 0.8 }}><Phone size={16} /> +54 9 297 544-0834</div>
+            <div className="flex items-center gap-2" style={{ opacity: 0.8 }}><Mail size={16} /> luga.medstore@gmail.com</div>
             <div className="flex items-center gap-2" style={{ opacity: 0.8 }}><Camera size={16} /> @lugamed.ok</div>
             <div className="flex items-center gap-2" style={{ opacity: 0.8 }}><MapPin size={16} /> Buenos Aires, Argentina</div>
           </div>
         </div>
       </div>
-      
+
       <div className="container" style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem', textAlign: 'center', opacity: 0.8, fontSize: '0.875rem' }}>
         &copy; {new Date().getFullYear()} LuGaMed - Insumos Médicos y Tecnología. Todos los derechos reservados.
       </div>
